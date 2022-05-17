@@ -6,7 +6,7 @@
 #### 1、设置显卡型号
 config.plist 配置
 在`DeviceProperties`下添加
-```plist
+```xml
 
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
@@ -21,7 +21,7 @@ config.plist 配置
 #### 2、性能增强
 我没有CPU核显和有 AMD 显卡的用户：可以在 boot-args 中手动加入 cardtype=ecardonly，提升独显的工作效率。
 
-```plist
+```xml
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
