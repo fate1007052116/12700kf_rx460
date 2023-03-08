@@ -960,6 +960,8 @@
 			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>Auto</string>
+			<key>HibernateSkipsPicker</key>
+            <false/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
@@ -1394,7 +1396,7 @@
 				<key>boot-args</key>
 				<string>-v keepsyms=1 debug=0x100 -wegnoigpu agdpmod=pikera alcid=66 amfi_get_out_of_my_way=0x1 -no-compat-check</string>
 				<key>csr-active-config</key>
-				<data>30800000</data>
+				<data>AAAAAA==</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -1798,6 +1800,8 @@
 			<true/>
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
+			<key>ResizeUsePciRbIo</key>
+            <false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
