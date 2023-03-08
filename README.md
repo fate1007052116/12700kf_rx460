@@ -1,9 +1,8 @@
-## 
 
-### RX 460显示RX 460/560 没有功能集
+## RX 460显示RX 460/560 没有功能集
 > 参考：https://bbs.pcbeta.com/viewthread-1862688-1-1.html
 >      https://bbs.pcbeta.com/viewthread-1847847-1-4.html
-#### 1、设置显卡型号
+### 1、设置显卡型号
 config.plist 配置
 在`DeviceProperties`下添加
 ```xml
@@ -18,7 +17,7 @@ config.plist 配置
 
 ```
 
-#### 2、性能增强
+### 2、性能增强
 我没有CPU核显和有 AMD 显卡的用户：可以在 boot-args 中手动加入 cardtype=ecardonly，提升独显的工作效率。
 
 ```xml
@@ -35,3 +34,11 @@ config.plist 配置
 			</dict>
 
 ```
+## mac 接收不到更新
+#### 1、启用系统完整性检查
+
+> 参考：https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#disabling-sip
+> csr-active-config 需要改为 00000000
+
+#### 2、取消对gt710的兼容
+> SecureBootModel 改为 Default

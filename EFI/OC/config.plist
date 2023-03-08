@@ -1050,7 +1050,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1396,7 +1396,7 @@
 				<key>boot-args</key>
 				<string>-v keepsyms=1 debug=0x100 -wegnoigpu agdpmod=pikera alcid=66 amfi_get_out_of_my_way=0x1 -no-compat-check</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>00000000</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -1472,11 +1472,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K952104GUFHDD1M</string>
+			<string>F5K936300GUK3F71F</string>
 			<key>ProcessorType</key>
 			<integer>3842</integer>
 			<key>ROM</key>
-			<data>nHvvQivg</data>
+			<string>60FEC57A9DCA</string>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1484,9 +1484,9 @@
 			<key>SystemProductName</key>
 			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KZW04FP7QM</string>
+			<string>F5KZCGYYP7QM</string>
 			<key>SystemUUID</key>
-			<string>22B7363A-DA07-4F27-9865-0F8C820A1E2C</string>
+			<string>A4C931EC-C3D0-44B5-A06D-8CBE10E0E11A</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
