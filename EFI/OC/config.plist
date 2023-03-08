@@ -254,7 +254,7 @@
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>model</key>
-				<string>Radeon RX 580</string>
+				<string>Radeon RX 460</string>
 				<key>ATY,Card#</key>
 				<string>109-D00080-00</string>
 				<key>ATY,Copyright</key>
@@ -1392,9 +1392,9 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -wegnoigpu agdpmod=pikera alcid=66</string>
+				<string>-v keepsyms=1 debug=0x100 -wegnoigpu agdpmod=pikera alcid=66 amfi_get_out_of_my_way=0x1 -no-compat-check</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>30800000</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
