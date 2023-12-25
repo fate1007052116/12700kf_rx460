@@ -1,4 +1,12 @@
-## 
+## 启用 intel wifi
+> 参考：[文档地址](https://openintelwireless.github.io/)
+
+1. 把 `itlwm.kext`添加到 `/EFI/OC/Kexts/` 目录下
+2. 使用 `properTree` 刷新 oc 配置
+3. 重启
+4. 安装 `HeliPort` 用来控制Wi-Fi连接
+
+
 
 ### RX 460显示RX 460/560 没有功能集
 > 参考：https://bbs.pcbeta.com/viewthread-1862688-1-1.html
